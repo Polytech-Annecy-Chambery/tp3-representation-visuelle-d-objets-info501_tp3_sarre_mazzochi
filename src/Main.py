@@ -16,19 +16,17 @@ import copy
 
 
 def Q1a():
-    pass
+    return Configuration()
     
 def Q1b_f():
     return Configuration({'screenPosition': -5, 'xAxisColor': [1, 1, 0]}). \
-        setParameter('xAxisColor', [1, 1, 0]). \
-        setParameter('yAxisCo lor', [0,1,1]). \
-        display()
+    setParameter('xAxisColor', [1, 1, 0]). \
+    setParameter('yAxisColor', [0,1,1]). \
+    display()
         
 def Q2b():
-    # Ecriture en utilisant le chaînage
-    return Configuration().add(
-            Section({'position': [1, 1, 0], 'width':7, 'height':2.6})
-            ) 
+  
+    pass
 
 def Q2c():
     # Ecriture en utilisant le chaînage
@@ -37,7 +35,7 @@ def Q2c():
             )
 
 def Q3a():
-    pass  
+    pass
 
 def Q4a():
     # Ecriture en utilisant des variables : A compléter
@@ -95,7 +93,7 @@ def main():
     # Enlever un des commentaires pour la question traitée
     
     configuration = Q1a()
-    # configuration = Q1b_f()
+    configuration = Q1b_f()
     # configuration = Q2b()
     # configuration = Q2c()
     # configuration = Q3a()
